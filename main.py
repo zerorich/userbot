@@ -64,8 +64,6 @@ async def main():
         # Здесь можно добавить любую логику обработки ваших сообщений
         if ".sm" in text.lower():
             await event.message.edit("Саламалекум")
-        if ".d" in text.lower():
-            await event.message.edit("Иди нахуй тварь!💋")
         if ".wu" in text.lower():
             await event.message.edit("Hey! What's up bro?")
 
